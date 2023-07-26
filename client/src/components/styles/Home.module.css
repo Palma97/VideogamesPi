@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+    padding: 0px;
+  }
+  .container {
+      border-radius: 3%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      background-color: #636468;
+      box-shadow: 0 0 50px rgb(14, 4, 16);
+    }
+    
+    .card {
+      background-color: #282c34;
+      border: 5px solid transparent;
+      border-radius: 10%;
+      padding: 10px;
+      text-align: center;
+      transition: border-color 0.3s ease-in-out;
+      margin: 10px;
+      width: calc(25% - 20px); /* Ajusta el ancho de la tarjeta */
+    }
+    
+    .card:hover {
+      border-color: rgb(221, 0, 255);
+      box-shadow: 0 0 20px rgb(14, 4, 16);
+      transition: 0.5s;
+      scale: 1.1;
+    }
+    
+    .card h3 {
+      text-decoration: none;
+      color: #e723a6;
+      font-family: cursive;
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+    
+    .card img {
+      border-radius: 10px;
+      margin-bottom: 10px;
+      width: 100%;
+      height: auto;
+    }
+    
+    .card h6 {
+      color: rgb(221, 0, 255);
+      font-size: 14px;
+    }
+  
+    .button {
+      background-color: #282c34;
+      border: 2px solid transparent;
+      font-weight: bold;
+      color: rgb(221, 0, 255);
+      padding: 8px 16px;
+      border-radius: 10px;
+      transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+      margin: 10px;
+    }
+    
+    .button:hover {
+      background-color: rgb(221, 0, 255);
+      color: #000;
+      cursor: pointer;
+      border: solid 3px black
+    }
+  
+    .homeContainer {
+      position: relative;
+      background-color: #282c34;
+      padding: 20px;
+      overflow: hidden;
+      min-height: 101vh;
+    }
+    
+.h1Ome{
+  color: #000;
+  font-weight: bold;
+  font-size: 3rem;
+  font-family: fantasy;
+  text-shadow: 0 0 20px rgb(221, 0, 255);
+}
