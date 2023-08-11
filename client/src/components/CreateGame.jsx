@@ -46,8 +46,8 @@ const CreateGame = () => {
 
     const validators = (values) => {
         let errors = {};
-        if (!values.name || values.name.length < 3) {
-            errors.name = "* El nombre del juego debe tener al menos 3 caracteres...";
+        if (!values.name || values.name.length < 3 || values.name.length > 20) {
+            errors.name = "* El nombre del juego debe tener al menos 3 caracteres o no puede ser demasiado largo...";
         }
 
         if(!/^[A-Za-z ]+$/.test(values.name)){
